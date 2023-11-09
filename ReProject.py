@@ -252,6 +252,6 @@ if __name__ == "__main__":
 
     CalcReprojError(data, output_path, -1, world, cam, mtx, dist, rvecs, tvecs)
     # 可视化棋盘的位姿(默认相机位置不变)
-    show_chessboard_pose(rvecs, tvecs)
+    # show_chessboard_pose(rvecs, tvecs)
     # 可视化当前的相机姿态(默认棋盘位置不变)
-    # show_cam_pose(rvecs, tvecs)
+    show_cam_pose(rvecs, tvecs)
